@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="5919b335-7b34-49c3-8c21-0bf2b9624f79" name="Changes" comment="" />
+=======
+    <list default="true" id="8940af9f-9d40-4298-b260-8a75b405046d" name="Changes" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,9 +52,15 @@
       <workItem from="1681223318062" duration="774000" />
       <workItem from="1683877971007" duration="594000" />
       <workItem from="1690827430643" duration="161000" />
+<<<<<<< Updated upstream
       <workItem from="1692388948960" duration="1513000" />
       <workItem from="1695705589198" duration="6000" />
       <workItem from="1705998974053" duration="956000" />
+=======
+      <workItem from="1692388948960" duration="1171000" />
+      <workItem from="1693201865122" duration="3000" />
+      <workItem from="1698840746958" duration="1661000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
