@@ -129,41 +129,115 @@
           <!--    <i>National Innovation Project Leader</i> <br /></li>-->
       </ul>
 
-      <h1>Publications </h1>
-      <ul>
-          <li><strong><span style="color: #2ca25f">[Under Review]</span></strong> <strong>  Enhancing Concurrent Fuzzing Performance with Adaptive Techniques</strong><a href="https://arxiv.org/abs/2311.06530"></a>
-              <br> Anonymous authors
-              <br>
-          </li>
-      </ul>
-      <ul>
-          <li><strong><span style="color: #2ca25f">[Arxiv]</span></strong> <strong> How ChatGPT is Solving Vulnerability Management Problem </strong><a href="https://arxiv.org/abs/2311.06530"> [pdf]</a>
-              <br> Peiyu Liu, Junming Liu, Lirong Fu, Kangjie Lu, <strong>Yifan Xia</strong>, Xuhong Zhang, Wenzhi Chen, Haiqin Weng, Shouling Ji, Wenhai Wang
-              <br>
-          </li>
-      </ul>
-      <ul>
-          <li><strong><span style="color: #2ca25f">[ESORICS'23]</span></strong> <strong>Static Semantics Reconstruction for JavaScript-WebAssembly Multilingual Malware Detection</strong><a href="https://arxiv.org/abs/2310.17304"> [pdf]</a>
-              <br> <strong>Yifan Xia</strong>, Ping He, Xuhong Zhang, Peiyu Liu, Shouling Ji, Wenhai Wang
-              <br>
-              In <em> 28th European Symposium on
-                  Research in Computer Security</em>, 2023 </li>
-      </ul>
-      <ul>
-          <li><strong><span style="color: #2ca25f">[CCS'23]</span></strong> <strong> Efficient Query-based Attack Against ML-based Android Malware
-              Detection Under Zero Knowledge Setting</strong><a href="https://dl.acm.org/doi/10.1145/3576915.3623117"> [pdf]</a>
-              <br>Ping He, <strong>Yifan Xia</strong>,  Xuhong Zhang, Shouling Ji
-              <br>
-              In <em>
-                  The 30th ACM Conference on Computer and Communications Security</em>, 2023</li>
+      <style>
+          .publications {
+              font-family: Arial, sans-serif;
+              margin: 20px 0;
+          }
 
-      </ul>
-      <ul>
-          <li><strong><span style="color: #2ca25f">[EmSE]</span></strong> <strong>Evaluating Seed Selection for Fuzzing JavaScript Engines</strong><a href="https://link.springer.com/article/10.1007/s10664-023-10340-9"> [pdf]</a>
-              <br> Ming Wen, Yongcong Wang, <strong>Yifan Xia</strong>, Hai Jin
-              <br>
-              In <em> Empirical Software Engineering</em>,  2023 </li>
-      </ul>
+          .section-header {
+              background-color: #f0f0f0;
+              padding: 10px 15px;
+              border-radius: 8px;
+              color: #333;
+              font-size: 20px;
+              margin-top: 20px;
+              font-weight: bold;
+          }
+
+          ul.publications-list {
+              list-style-type: none;
+              padding: 0;
+          }
+
+          li.publications-list {
+              background-color: #fff;
+              border: 1px solid #ddd;
+              border-radius: 8px;
+              padding: 15px;
+              margin-top: 10px;
+          }
+
+          a {
+              color: #2ca25f;
+              text-decoration: none;
+          }
+
+          a:hover {
+              text-decoration: underline;
+          }
+
+          .publication-title {
+              color: #08306b;
+              font-weight: bold;
+          }
+
+          .publication-info {
+              font-size: 14px;
+              color: #666;
+          }
+      </style>
+
+      <div class="publications">
+          <h1>Publications</h1>
+
+          <div class="section-header">Malware Attack and Defense</div>
+          <ul class="publications-list">
+              <li class="publications-list">
+                  <span class="publication-title">Static Semantics Reconstruction for JavaScript-WebAssembly Multilingual Malware Detection</span> -
+                  <span style="color: #2ca25f">[ESORICS'23]</span>
+                  <div class="publication-info">
+                      <strong>Yifan Xia</strong>, Ping He, Xuhong Zhang, Peiyu Liu, Shouling Ji, Wenhai Wang
+                      <br>In <em>28th European Symposium on Research in Computer Security</em>
+                       <a href="https://arxiv.org/abs/2310.17304">[pdf]</a>
+                  </div>
+              </li>
+              <li class="publications-list">
+                  <span class="publication-title">Efficient Query-based Attack Against ML-based Android Malware Detection Under Zero Knowledge Setting</span> -
+                  <span style="color: #2ca25f">[CCS'23]</span>
+                  <div class="publication-info">
+                      Ping He, <strong>Yifan Xia</strong>, Xuhong Zhang, Shouling Ji
+                      <br>In <em>The 30th ACM Conference on Computer and Communications Security</em> <a href="https://dl.acm.org/doi/10.1145/3576915.3623117">[pdf]</a><br>
+                  </div>
+              </li>
+          </ul>
+
+          <div class="section-header">LLM for Cybersecurity</div>
+          <ul class="publications-list">
+              <li class="publications-list">
+                  <span class="publication-title">Exploring Large Language Models for Precise Cryptographic Misuse Detection</span> -
+                  <span style="color: #2ca25f">[In Submission]</span>
+                  <div class="publication-info">Anonymous authors</div>
+              </li>
+              <li class="publications-list">
+                  <span class="publication-title">How ChatGPT is Solving Vulnerability Management Problem</span> -
+                  <span style="color: #2ca25f">[Arxiv]</span>
+                  <div class="publication-info">
+                      Peiyu Liu, Junming Liu, Lirong Fu, Kangjie Lu, <strong>Yifan Xia</strong>, Xuhong Zhang, Wenzhi Chen, Haiqin Weng, Shouling Ji, Wenhai Wang
+                       <a href="https://arxiv.org/abs/2311.06530">[pdf]</a>
+                  </div>
+              </li>
+          </ul>
+
+          <div class="section-header">Fuzzing</div>
+          <ul class="publications-list">
+              <li class="publications-list">
+                  <span class="publication-title">Enhancing Concurrent Fuzzing Performance with Adaptive Techniques</span> -
+                  <span style="color: #2ca25f">[In Submission]</span>
+                  <div class="publication-info">Anonymous authors</div>
+              </li>
+              <li class="publications-list">
+                  <span class="publication-title">Evaluating Seed Selection for Fuzzing JavaScript Engines</span> -
+                  <span style="color: #2ca25f">[EmSE 2023]</span>
+                  <div class="publication-info">
+                      Ming Wen, Yongcong Wang, <strong>Yifan Xia</strong>, Hai Jin
+                      <br>In <em>Empirical Software Engineering</em>
+                       <a href="https://link.springer.com/article/10.1007/s10664-023-10340-9">[pdf]</a>
+                  </div>
+              </li>
+          </ul>
+      </div>
+
 
       <h1>Services</h1>
       <p style="margin-left:22px">
