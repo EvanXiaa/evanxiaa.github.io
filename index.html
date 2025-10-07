@@ -99,7 +99,8 @@
 <!--          If your lab is open to hosting a visiting researcher, please <a href="mailto:yfxia@zju.edu.cn" style="color: red; text-decoration: underline; font-weight: bold;">contact me</a>.-->
 <!--      </p>-->
 
-      <ul>
+      <ul id="news-list">
+          <li><strong>Oct 7, 2025: </strong>Our paper was accepted by  <span style="color: #2ca25f">TIFS</span>. Congratulate to Hong Liang. </li>
           <li><strong>Mar 30, 2025: </strong>Our paper was accepted by  <span style="color: #2ca25f"><a href="https://conf.researchr.org/home/issta-2025">ISSTA 2025</a></span> </li>
           <li><strong>Now I join the Cyber Security Research Center @ NTU as a joint Ph.D. from December 2024.</strong>  </li>
           <li><strong>June 4, 2024: </strong>Our paper was accepted by  <span style="color: #2ca25f"><a href="https://www.usenix.org/conference/usenixsecurity24">USENIX Security'24</a></span> </li>
@@ -108,6 +109,15 @@
           <li><strong>May 12, 2023: </strong>Our paper was accepted by  <span style="color: #2ca25f"><a href="https://www.springer.com/journal/10664">EmSE</a></span> </li>
           <li><strong>Sept 1, 2022: </strong>Now a Ph.D candidate in <span style="color: #2ca25f"><a href="https://nesa.zju.edu.cn/index.html">NESA LAB, ZJU</a></span> </li>
       </ul>
+
+      <script>
+          // Keep only the 5 most recent news items
+          const newsItems = document.querySelectorAll("#news-list li");
+          newsItems.forEach((item, index) => {
+              if (index >= 5) item.style.display = "none";
+          });
+      </script>
+
                 <h1 style="text-align: left;margin-bottom:0px">Education</h1>
 <ul>
     <li>
@@ -119,7 +129,7 @@
         <i>B.A., Information Security (Major)</i> <br />
         <i>B.A., English Literature (Dual Major)</i> <br />
     </li>
-    
+
 </ul>
       <h1>Work Experience</h1>
       <ul>
@@ -226,13 +236,17 @@
           <div class="section-header">Fuzzing</div>
           <ul class="publications-list">
               <li class="publications-list">
-                  <span class="publication-title">Enhancing Concurrent Fuzzing Performance with Adaptive Techniques</span> -
-                  <span style="color: #2ca25f">[In Submission]</span>
-                  <div class="publication-info">Anonymous authors</div>
+                  <span class="publication-title">Boosting Parallel Fuzzing with Boundary-Targeted Task Allocation and Exploration</span> -
+                  <span style="color: #2ca25f">[TIFS]</span>
+                  <div class="publication-info">
+                      Hong Liang, Yijia Guo, Haotian Wu, <strong>Yifan Xia</strong>, Yi Xiang, Xiantao Jin, Hao Peng, Xuhong Zhang, Shouling Ji
+                      <br>In <em>Transactions on Information Forensics & Security</em>
+                      <a href="https://link.springer.com/article/10.1007/s10664-023-10340-9">[pdf]</a>
+                  </div>
               </li>
               <li class="publications-list">
                   <span class="publication-title">Evaluating Seed Selection for Fuzzing JavaScript Engines</span> -
-                  <span style="color: #2ca25f">[EmSE 2023]</span>
+                  <span style="color: #2ca25f">[EmSE]</span>
                   <div class="publication-info">
                       Ming Wen, Yongcong Wang, <strong>Yifan Xia</strong>, Hai Jin
                       <br>In <em>Empirical Software Engineering</em>
@@ -244,6 +258,9 @@
 
 
       <h1>Services</h1>
+      <p style="margin-left:22px">
+          Student Volunteer, <a href = "https://conf.researchr.org/home/icfp-splash-2025">ICFP/SPLASH 2025</a>
+      </p>
       <p style="margin-left:22px">
           Reviewer, <a href = "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206">TIFS 2023</a>
       </p>
@@ -265,11 +282,6 @@
 
       <p style="margin-left:22px">
 
-      </p>
-
-      <h1>Hobbies</h1>
-      <p style="margin-left:22px">
-          I love recording, and you can find some of my songs <a href = "http://kg.qq.com/node/personal?uid=63989e8d2d243e8b36&chain_share_id=76q5Mv8ORRXCKkhzBLpuwWYSUFjJD3Q9xLrGLH3y7Og">here</a>.
       </p>
 
       <img src="./image/banner0.jpg" class="header-image" width="960" alt="Yifan Xia&#39;s Homepage"></a>
